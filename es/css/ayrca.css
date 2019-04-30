@@ -1,0 +1,26 @@
+.img-container{
+	height: 100vh;
+	overflow-y: auto;
+}
+
+.content{
+	padding: 3rem;
+}
+
+.description{
+	padding-right: 2rem;
+	padding-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.technologies{
+	padding-right: 2rem;
+	padding-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.website{
+	padding-right: 2rem;
+	padding-left: 2rem;
+	margin-bottom: 2rem;
+}

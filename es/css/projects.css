@@ -1,0 +1,9 @@
+#portfolio{
+    background: #fff !important;
+    padding-top: 5rem;
+}
+
+#portfolio .card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

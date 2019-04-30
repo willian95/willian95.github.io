@@ -1,0 +1,172 @@
+@media screen and (max-width: 1240px){
+
+    #navbarSupportedContent{
+        visibility: hidden;
+    }
+    
+    #hero .flex-column{
+        flex: 4;
+    }
+
+}
+
+@media screen and (max-width: 1135px){
+
+    #hero .padding-right {
+        padding-right: 1rem;
+    }
+
+    #hero .padding-left {
+        padding-right: 1rem;
+    }
+
+    #hero .flex-column{
+        flex: 5;
+    }
+
+}
+
+@media screen and (max-width: 1199px){
+
+    #services .card{
+        height: 145px;
+    }
+
+}
+
+@media screen and (max-width: 1107px){
+
+    #hero .padding-right {
+        padding-right: 0rem;
+    }
+
+    #hero .padding-left {
+        padding-left: 0rem;
+    }
+
+    #hero .text-2 {
+        margin-top: 20px;
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 1040px){
+
+    #hero .text-2{
+        font-size: 35px;
+    }
+
+    #hero .text-3 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+
+    #collapse{
+        display: block;
+    }
+
+    #hero .full-height{
+        height: 100%;
+    }
+
+    #hero .flex-row{
+        height: 100%;
+    }
+
+    #hero{
+        max-height: 1000px;
+    }
+
+    #services .text-1{
+        text-align: center
+    }
+
+    #services .text-2{
+        text-align: center
+    }
+
+    #services .full-height{
+        height: unset !important;
+    }
+
+    #services .ghost-col{
+        display: block;
+    }
+
+    #services .card{
+        height: unset !important;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+
+    #hero .flex-column{
+        display: none;
+    }
+
+    #hero .flex-column-2{
+        flex: 0 0 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    #about .align-button{
+        text-align: center;
+    }
+
+    #services{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #skills{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #skills .full-height{
+        height: unset;
+    }
+
+    #skills .card{
+        margin-top: 5rem;
+    }
+
+    #portfolio .row{
+        margin-top: 0rem !important;
+    }
+
+    #portfolio .card{
+        margin-top: 1rem;
+    }
+	
+	.navbar-brand{
+		padding-right: 0rem !important;
+	}
+
+    .navbar-brand > img{
+    	width: 68px !important;
+    }
+
+    footer{
+        height: unset;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    #services .col-lg-6, #services .col-md-6 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+}
+
