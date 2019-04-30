@@ -40,6 +40,17 @@ body{
         color: #000;
     }
 
+    #sidebar a{
+        text-decoration: none;
+        color: #212529;
+    }
+
+    #sidebar .active-lang{
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+    }
+
 /* sidebar */
 
 /* navbar */
@@ -87,6 +98,18 @@ body{
         }
 
         #navbar .active:after{
+            position: absolute;
+            content: '';
+            height: 2px;
+            bottom: -4px; 
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 50%;
+            background: #32322C;
+        }
+
+        #navbar .active-lang:after{
             position: absolute;
             content: '';
             height: 2px;
